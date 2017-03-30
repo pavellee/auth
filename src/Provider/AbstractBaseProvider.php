@@ -169,4 +169,9 @@ abstract class AbstractBaseProvider
     {
         return $this->consumer;
     }
+
+    /**
+     * @return string|false
+     */
+    abstract public function getAvatarUrl();
 }

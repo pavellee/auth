@@ -177,4 +177,12 @@ abstract class AbstractProvider extends AbstractBaseProvider
 
         return $this->getAccessToken($parameters['code']);
     }
+
+    /**
+     * @return bool
+     */
+    public function getAvatarUrl()
+    {
+        return false;
+    }
 }
